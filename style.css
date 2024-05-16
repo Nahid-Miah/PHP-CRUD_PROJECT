@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: red;
+    width: 50%;
+    border-radius: 1px solid black;
+}
+.form-group{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    /* display: flex; */
+    align-items: center;
+}
+.form-group input[type="text"]{
+    padding-left: 3px;
+}
+
+.submit-btn{
+    display: flex;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    width: 15%;
+    padding: 5px;
+    justify-content: center;
+}
